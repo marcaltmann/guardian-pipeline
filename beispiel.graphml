@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="label" for="node" attr.name="label" attr.type="string"/>
+  <key id="node_type" for="node" attr.name="node_type" attr.type="string"/>
+  <key id="wikidata_id" for="node" attr.name="wikidata_id" attr.type="string"/>
+  <key id="author_label" for="node" attr.name="author_label" attr.type="string"/>
+  <key id="weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph edgedefault="undirected">
+    <node id="work_Q752584">
+      <data key="label">Mrs Dalloway</data>
+      <data key="node_type">work</data>
+      <data key="wikidata_id">Q752584</data>
+      <data key="author_label">Virginia Woolf</data>
+    </node>
+    <node id="voter_Q460088">
+      <data key="label">Yiyun Li</data>
+      <data key="node_type">voter</data>
+      <data key="wikidata_id">Q460088</data>
+    </node>
+    <edge source="voter_Q460088" target="work_Q752584">
+      <data key="weight">1.0</data>
+    </edge>
+  </graph>
+</graphml>
