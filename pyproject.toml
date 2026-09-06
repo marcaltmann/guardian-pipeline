@@ -7,7 +7,12 @@ authors = [
     { email = "marcaltmann@posteo.de" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "jsbeautifier>=2.0.3",
+    "pytest>=9.1.1",
+    "regex>=2026.9.3",
+    "requests>=2.34.2",
+]
 
 [project.scripts]
 guardian-pipeline = "guardian_pipeline:main"
@@ -15,3 +20,9 @@ guardian-pipeline = "guardian_pipeline:main"
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+pythonpath = [".", "pipeline"]
+
+[tool.ruff.format]
+quote-style = "single"
