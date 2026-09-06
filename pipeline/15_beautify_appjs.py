@@ -7,7 +7,7 @@ selected release.
 
 Run from the repo root::
 
-    uv run pipeline/11_beautify_appjs.py [--version VERSION]
+    uv run pipeline/15_beautify_appjs.py [--version VERSION]
 """
 
 import argparse

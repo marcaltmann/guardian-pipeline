@@ -14,15 +14,11 @@ dependencies = [
     "requests>=2.34.2",
 ]
 
-[project.scripts]
-guardian-pipeline = "guardian_pipeline:main"
-
-[build-system]
-requires = ["uv_build>=0.12.10,<0.13.0"]
-build-backend = "uv_build"
-
-[tool.pytest.ini_options]
-pythonpath = [".", "pipeline"]
+[tool.uv]
+package = false
 
 [tool.ruff.format]
 quote-style = "single"
+
+[tool.pytest.ini_options]
+pythonpath = ["pipeline"]
