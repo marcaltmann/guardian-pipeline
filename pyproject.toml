@@ -1,17 +1,23 @@
 [project]
 name = "guardian-pipeline"
 version = "0.1.0"
-description = "Add your description here"
+description = "Turns the ballot data behind the Guardian's 2026 \"The 100 best novels\" list into a bipartite voter–work graph keyed by Wikidata ids"
 readme = "README.md"
 authors = [
-    { email = "marcaltmann@posteo.de" }
+    { name = "Marc Altmann", email = "marcaltmann@posteo.de" },
+    { name = "Frank Fischer", email = "frafis@gmail.com" },
+    { name = "Ashley Lau", email = "ashley.lau@fu-berlin.de" },
+    { name = "Jonah Lubin", email = "jonah0lubin@gmail.com" },
 ]
 requires-python = ">=3.14"
 dependencies = [
     "jsbeautifier>=2.0.3",
-    "pytest>=9.1.1",
-    "regex>=2026.9.3",
     "requests>=2.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
 ]
 
 [tool.uv]
