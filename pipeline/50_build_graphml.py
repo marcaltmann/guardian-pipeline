@@ -1,4 +1,4 @@
-"""Stage 40 — turn the curation tables into the bipartite voter–work graph.
+"""Stage 50 — turn the curation tables into the bipartite voter–work graph.
 
 Reads the stage-30 tables and writes:
 
@@ -15,7 +15,7 @@ covers the published top-100 as well as every ballot.
 
 Offline, no flags. Run from the ``pipeline/`` directory::
 
-    uv run 40_build_graphml.py
+    uv run 50_build_graphml.py
 """
 
 from graphml import Edge, Key, Node, write_graphml
