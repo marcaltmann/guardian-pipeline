@@ -1,0 +1,685 @@
+# Hand-researched Wikidata ids for works, keyed by (author, work). One row per work; a blank wikidataId is unknown. Lines starting with # are ignored. Re-run: uv run 35_reconcile_wikidata_ids.py
+author	work	wikidataId	notes
+A. S. Byatt	Possession	Q428581	
+A. S. Byatt	Still Life	Q115472295	
+Abdulrazak Gurnah	Afterlives	Q108830528	
+Abdulrazak Gurnah	By the Sea	Q108829372	
+Abdulrazak Gurnah	Paradise	Q20875782	
+Adania Shibli	Minor Detail	Q110894372	
+Agatha Christie	And Then There Were None	Q214132	
+Agatha Christie	Sleeping Murder	Q662997	
+Agatha Christie	The Murder of Roger Ackroyd	Q224078	
+Ahmadou Kourouma	Allah Is Not Obliged	Q2837645	
+Ahmet Hamdi Tanpınar	A Mind at Peace	Q4658280	
+Akhil Sharma	Family Life	Q25209320	
+Akwaeke Emezi	Freshwater	Q57315515	
+Alan Burns	Europe After the Rain	Q139934608	
+Alan Hollinghurst	The Line of Beauty	Q2448434	
+Alan Hollinghurst	The Swimming-Pool Library	Q7767674	
+Alan Moore	Watchmen	Q128444	
+Alan Paton	Cry, the Beloved Country	Q2916551	
+Alan Warner	Morvern Callar	Q6915172	
+Alasdair Gray	Lanark	Q6482902	
+Albert Camus	The Outsider	Q163297	
+Albert Camus	The Plague	Q320372	
+Alberto Moravia	Boredom	Q3203139	
+Aldous Huxley	Point Counter Point	Q119246	
+Alessandro Manzoni	The Betrothed	Q28491	
+Alexander Pushkin	Eugene Onegin	Q50948	
+Alexandre Dumas	The Count of Monte Cristo	Q191838	
+Alexis Wright	Praiseworthy	Q124362421	
+Alfred Döblin	Berlin Alexanderplatz	Q694245	
+Ali Smith	How to Be Both	Q19364465	
+Alice Munro	Lives of Girls and Women	Q60675668	
+Alice Walker	Possessing the Secret of Joy	Q7233383	
+Alice Walker	The Color Purple	Q1897870	
+Alison Bechdel	Fun Home	Q428680	
+Amos Tutuola	Palm-Wine Drinkard	Q774053	
+Anders Nilsen	Tongues I	Q139961347	
+Andrea Levy	Small Island	Q1285279	
+Angela Carter	Nights at the Circus	Q3878871	
+Angela Carter	The Magic Toyshop	Q3821495	
+Angela Carter	Wise Children	Q3744835	
+Anita Brookner	Family and Friends	Q100698459	
+Anita Brookner	Hotel Du Lac	Q3786968	
+Anita Brookner	Latecomers	Q100698055	
+Anita Brookner	Strangers	Q139934421	
+Ann Patchett	Commonwealth	Q30599050	
+Ann Patchett	Tom Lake	Q121504933	
+Ann Petry	The Street	Q7766991	
+Anna Burns	Milkman	Q57417096	
+Anna Kavan	Ice	Q48790394	
+Anne Brontë	The Tenant of Wildfell Hall	Q44701	
+Anne Enright	The Gathering	Q3824774	
+Anne Enright	The Green Road	Q29018923	
+Annie Ernaux	The Years	Q3230588	
+Annie Proulx	The Shipping News	Q11009630	
+Anonymous	One Thousand and One Nights	Q8258	
+Anonymous	Rig Veda	Q727413	
+Antal Szerb	Journey by Moonlight	Q1400237	
+Anthony Powell	A Dance to the Music of Time	Q1392936	
+Anthony Trollope	Barchester Towers	Q4859885	
+Anthony Trollope	The Palliser Novels	Q7127920	
+Anthony Trollope	The Way We Live Now	Q7773866	
+Antonia Barber	The Amazing Mr Blunden	Q7736336	
+Armistead Maupin	Tales of the City	Q1700501	
+Art Spiegelman	Maus	Q59696	
+Arthur Conan Doyle	The Valley of Fear	Q863438	
+Arundhati Roy	The God of Small Things	Q378786	
+Audre Lorde	Sister Outsider	Q23307340	
+Barbara Comyns	Who Was Changed and Who Was Dead	Q133541010	
+Barbara Kingsolver	Demon Copperhead	Q115526836	
+Barbara Kingsolver	The Poisonwood Bible	Q7757621	
+Barbara Pym	Quartet in Autumn	Q737164	
+Barry Hines	A Kestrel for a Knave	Q4657543	
+Becky Chambers	To Be Taught, If Fortunate	Q96111649	
+Ben Okri	The Famished Road	Q2086419	
+Benedict Kiely	Proxopera	Q139934689	
+Benjamín Labatut	The Maniac	Q124842367	
+Bernard Malamud	A New Life	Q15910697	
+Bernardine Evaristo	The Emperor's Babe	Q85807044	
+Beryl Bainbridge	The Birthday Boys	Q16385138	
+Bessie Head	A Question of Power	Q42194769	
+Bibhutibhushan Bandopadhyay	Pather Panchali	Q2948187	
+Bibhutibhushan Bandyopadhyay	Pather Panchali	Q2948187	
+Birgit Vanderbeke	Mussel Feast	Q1169797	
+Bohumil Hrabal	I Served the King of England	Q3508812	
+Bohumil Hrabal	Too Loud a Solitude	Q2461792	
+Bram Stoker	Dracula	Q41542	
+Breandán Ó hEithir	Lead Us Into Temptation	Q6545693	
+Bret Easton Ellis	American Psycho	Q466504	
+Brit Bennett	The Vanishing Half	Q98476957	
+Buchi Emecheta	The Joys of Motherhood	Q7743726	
+Caleb Femi	Poor	Q139934571	
+Cao Xueqin	The Story of the Stone, or the Dream of the Red Chamber	Q8265	
+Carson McCullers	The Heart Is a Lonely Hunter	Q1645466	
+Catherine Newman	We All Want Impossible Things	Q139962379	
+Charles Dickens	Bleak House	Q883305	
+Charles Dickens	David Copperfield	Q189811	
+Charles Dickens	Great Expectations	Q219552	
+Charles Dickens	Our Mutual Friend	Q1557935	
+Charles Dickens	Pickwick Papers	Q460583	
+Charles Dickens	The Adventures of Oliver Twist	Q164974	
+Charlotte Brontë	Jane Eyre	Q182961	
+Charlotte Brontë	Villette	Q2449570	
+Charlotte Perkins Gilman	The Yellow Wallpaper	Q462373	
+Chimamanda Ngozi Adichie	Americanah	Q16154159	
+Chimamanda Ngozi Adichie	Half of a Yellow Sun	Q3235393	
+China Miéville	The City & the City	Q3520291	
+Chinua Achebe	Arrow of God	Q4796152	
+Chinua Achebe	Things Fall Apart	Q622400	
+Christa Wolf	A Model Childhood	Q1741948	
+Christine Brooke-Rose	Textermination	Q133512899	
+Christopher Priest	The Affirmation	Q3209114	
+Christopher Priest	The Inverted World	Q1623320	
+Christos Tsiolkas	The Slap	Q7764741	
+Claire Keegan	Foster	Q28232425	
+Claire Keegan	Small Things Like These	Q113364856	
+Clarice Lispector	The Passion According to G.h.	Q9558465	
+Claude McKay	Home to Harlem	Q42185157	
+Claudia Rankine	Citizen	Q21152232	
+Colette	Chéri	Q1612826	
+Colette	The Vagabond	Q3213409	
+Colm Tóibín	Nora Webster	Q110517114	
+Colson Whitehead	Sag Harbor	Q16932848	
+Constance Debré	Love Me Tender	Q123852804	
+Cormac McCarthy	Blood Meridian	Q581426	
+Cormac McCarthy	Suttree	Q3978367	
+Cormac McCarthy	The Road	Q1140295	
+D. H. Lawrence	Sons and Lovers	Q80771	
+D. H. Lawrence	Women in Love	Q2443714	
+DH Lawrence	The Rainbow	Q3288936	
+Daniel Defoe	Robinson Crusoe	Q483034	
+Daniel Defoe	Roxana	Q3825485	
+Daniel Keyes	Flowers for Algernon	Q837934	
+Daniel Mason	North Woods	Q123509612	
+Dante Alighieri	The Divine Comedy	Q40185	
+Daphne du Maurier	Rebecca	Q1334940	
+Dashiell Hammett	The Maltese Falcon	Q870551	
+David Foster Wallace	Infinite Jest	Q1077445	
+David Markson	Wittgenstein's Mistress	Q8028589	
+David Mitchell	Cloud Atlas	Q40205	
+Denis Johnson	Tree of Smoke	Q14639595	
+Derek Walcott	Omeros	Q3882169	
+Diana Evans	Ordinary People	Q65068697	
+Diana Wynne Jones	Fire and Hemlock	Q5451523	
+Dino Buzzati	The Tartar Steppe	Q1216707	
+Djuna Barnes	Nightwood	Q11918676	
+Dodie Smith	I Capture the Castle	Q3221362	
+Don DeLillo	Falling Man	Q1394629	
+Don DeLillo	Libra	Q1093807	
+Don DeLillo	The Names	Q7753069	
+Don DeLillo	Underworld	Q2249650	
+Don DeLillo	White Noise	Q2623505	
+Donal Ryan	The Thing About December	Q109535817	
+Donna Tartt	The Goldfinch	Q15080194	
+Donna Tartt	The Secret History	Q1218321	
+Doris Lessing	The Golden Notebook	Q784986	
+Doris Lessing	The Grass Is Singing	Q428339	
+Douglas Adams	The Hitch Hiker's Guide to the Galaxy	Q3107329	
+Dylan Thomas	Under Milk Wood	Q2497140	
+E. B. White	Charlotte's Web	Q45735	
+E. L. Doctorow	The Book of Daniel	Q1167369	
+E. M. Forster	A Passage to India	Q622303	
+E. M. Forster	Maurice	Q1241741	
+EL Doctorow	Ragtime	Q737910	
+EM Forster	Howards End	Q1146642	
+Edgar Allan Poe	The Fall of the House of Usher	Q1197735	
+Edith Wharton	The Age of Innocence	Q1045464	
+Edith Wharton	The Custom of the Country	Q7728505	
+Edith Wharton	The House of Mirth	Q6474536	
+Edmund White	A Boy's Own Story	Q2601903	
+Edna O'Brien	The Country Girls	Q7727791	
+Eduardo Galeano	Memory of Fire	Q3854385	
+Edward P Jones	The Known World	Q7744892	
+Edward St Aubyn	The Patrick Melrose Novels	Q139926678	
+Edward Upward	The Spiral Ascent	Q139934277	
+Edwidge Danticat	The Dew Breaker	Q7730037	
+Eimear McBride	A Girl Is a Half-Formed Thing	Q18349573	
+Eleanor Catton	The Luminaries	Q15076530	
+Elena Ferrante	My Brilliant Friend	Q22263533	
+Elena Ferrante	Those Who Leave and Those Who Stay	Q55517451	
+Elfriede Jelinek	The Piano Teacher	Q3823559	
+Elizabeth Bowen	Heat of the Day	Q7739239	
+Elizabeth Bowen	The Death of the Heart	Q3823252	
+Elizabeth Gaskell	Cranford	Q265100	
+Elizabeth Gaskell	North and South	Q1853142	
+Elizabeth Jane Howard	The Light Years	Q139962137	
+Elizabeth Jane Howard	The Long View	Q98545407	
+Elizabeth Jenkins	Dr Gully	Q139926782	
+Elizabeth Smart	By Grand Central Station I Sat Down and Wept	Q5003789	
+Elizabeth Taylor	Angel	Q4762062	
+Elizabeth Taylor	Mrs. Palfrey at the Claremont	Q48699655	
+Elsa Morante	Arturo's Island	Q2778917	
+Emily Brontë	Wuthering Heights	Q202975	
+Emily St. John Mandel	Station Eleven	Q20645702	
+Erich Maria Remarque	All Quiet on the Western Front	Q207332	
+Ernest Hemingway	A Farewell to Arms	Q235795	
+Ernest Hemingway	The Sun Also Rises	Q501351	
+Eva Baltasar	Mammoth	Q139962274	
+Evelyn Waugh	A Handful of Dust	Q4004281	
+Evelyn Waugh	Brideshead Revisited	Q6992413	
+Evelyn Waugh	Scoop	Q1029093	
+Evelyn Waugh	Vile Bodies	Q7271018	
+F Scott Fitzgerald	The Great Gatsby	Q214371	
+F. Scott Fitzgerald	Tender Is the Night	Q247372	
+Fernanda Melchor	Hurricane Season	Q66134812	
+Flann O'Brien	At Swim-Two-Birds	Q759330	
+Flann O'Brien	The Third Policeman	Q2483345	
+Flannery O'Connor	Wise Blood	Q4305774	
+Ford Madox Ford	Parade's End	Q5579026	
+Ford Madox Ford	The Good Soldier	Q767802	
+Frances Hardinge	The Lie Tree	Q22305382	
+Francis Spufford	Golden Hill	Q56290133	
+Frank Norris	McTeague	Q11772710	
+Franz Kafka	The Castle	Q682733	
+Franz Kafka	The Metamorphosis	Q184222	
+Franz Kafka	The Trial	Q36097	
+Fumiko Enchi	The Waiting Years	Q24255853	
+Fyodor Dostoevsky	Crime and Punishment	Q165318	
+Fyodor Dostoevsky	Demons	Q329989	
+Fyodor Dostoevsky	Notes From the Underground	Q695116	
+Fyodor Dostoevsky	The Idiot	Q210784	
+Fyodor Dostoyevsky	The Brothers Karamazov	Q183157	
+G. V. Desani	All About H. Hatterr	Q4728502	
+Gabriel García Márquez	Chronicle of a Death Foretold	Q935935	
+Gabriel García Márquez	Love in the Time of Cholera	Q499396	
+Gabriel García Márquez	Of Love and Other Demons	Q267650	
+Gabriel García Márquez	One Hundred Years of Solitude	Q178869	
+Gabrielle Zevin	Tomorrow, and Tomorrow, and Tomorrow	Q115818209	
+George Eliot	Daniel Deronda	Q552238	
+George Eliot	Middlemarch	Q313129	
+George Eliot	Mill on the Floss	Q1215018	
+George Eliot	Silas Marner	Q638327	
+George Orwell	Animal Farm	Q1396889	
+George Orwell	Nineteen Eighty-Four	Q208460	
+George Saunders	Lincoln in the Bardo	Q28841909	
+George du Maurier	Trilby	Q1691967	
+Georges Perec	A Void	Q595140	
+Georges Perec	Life, a User's Manual	Q302255	
+Gerald Murnane	Tamarisk Row	Q139928085	
+Gerald Murnane	The Plains	Q133527070	
+Gertrude Stein	The Autobiography of Alice B. Toklas	Q6618986	
+Ghassan Kanafani	Men in the Sun and Other Palestinian Stories	Q2895697	
+Gillian Flynn	Gone Girl	Q5581570	
+Giorgio Bassani	The Garden of the Finzi-Continis	Q533391	
+Giovanni Boccaccio	The Decameron of Boccaccio	Q16438	
+Giuseppe Tomasi di Lampedusa	The Leopard	Q1193736	
+Graham Greene	Stamboul Train	Q1955781	
+Graham Greene	The End of the Affair	Q905112	
+Graham Greene	The Power and the Glory	Q431524	
+Graham Swift	Waterland	Q3795005	
+Gustave Flaubert	Madame Bovary	Q193417	
+Gustave Flaubert	Sentimental Education	Q1212285	
+Günter Grass	The Tin Drum	Q899334	
+H. G. Wells	The War of the Worlds	Q213019	
+Halldór Laxness	Independant People	Q3449499	
+Halldór Laxness	The Fish Can Sing	Q1167868	
+Han Kang	Human Acts	Q19657306	
+Han Kang	The Vegetarian	Q24082770	
+Hanif Kureishi	The Buddha of Suburbia	Q1192689	
+Hans Jakob Christoffel von Grimmelshausen	Simplicissimus	Q705839	
+Hanya Yanagihara	A Little Life	Q20709044	
+Harper Lee	To Kill a Mockingbird	Q212340	
+Haruki Murakami	Kafka on the Shore	Q579744	
+Heather Fawcett	Emily Wilde's Encyclopaedia of Faeries	Q125174577	
+Heinrich von Kleist	Michael Kohlhaas	Q279676	
+Helen Dewitt	The Last Samurai	Q7745995	
+Helen Fielding	Bridget Jones's Diary	Q2387225	
+Henry Green	Caught	Q135009690	
+Henry James	The Ambassadors	Q650571	
+Henry James	The Golden Bowl	Q1248585	
+Henry James	The Portrait of a Lady	Q861017	
+Henry James	The Turn of the Screw	Q625923	
+Henry James	The Wings of a Dove	Q1557588	
+Henry James	Washington Square	Q1548029	
+Henry Williamson	Tarka the Otter	Q7686243	
+Herman Melville	Moby-Dick	Q174596	
+Hermann Hesse	Siddhartha	Q457289	
+Hernán Díaz	In the Distance	Q65083030	
+Hilary Mantel	A Place of Greater Safety	Q4658878	
+Hilary Mantel	Bring up the Bodies	Q3644822	
+Hilary Mantel	The Mirror and the Light	Q7751674	
+Hilary Mantel	Wolf Hall	Q2657795	
+Honoré de Balzac	Cousin Bette	Q2712800	
+Ian McEwan	Atonement	Q306619	
+Ian McEwan	The Child in Time	Q1747269	
+Ibn Tufayl	The Improvement of Human Reason	Q3296813	
+Iris Murdoch	A Severed Head	Q4659428	
+Iris Murdoch	The Bell	Q7716387	
+Iris Murdoch	The Black Prince	Q7718418	
+Iris Murdoch	The Sea, the Sea	Q3794562	
+Iris Murdoch	The Unicorn	Q17985004	
+Irmgard Keun	After Midnight	Q1962127	
+Irvine Welsh	Marabou Stork Nightmares	Q3992409	
+Irvine Welsh	Trainspotting	Q11279562	
+Irène Némirovsky	Suite Française	Q568300	
+Isabel Allende	The House of the Spirits	Q1168267	
+Italo Calvino	If on a Winter's Night a Traveller	Q1032190	
+Italo Calvino	Invisible Cities	Q1219705	
+Italo Calvino	The Baron in the Trees	Q2450161	
+Italo Svevo	Confessions of Zeno	Q2630581	
+Itamar Vieira Junior	Crooked Plow	Q105546412	
+Ivan Aleksandrovich Goncharov	Oblomov	Q842074	
+Ivo Andrić	The Bridge on the Drina	Q1247865	
+Ivy Compton-Burnett	Elders and Betters	Q139934314	
+J. D. Salinger	The Catcher in the Rye	Q183883	
+J. G. Farrell	The Siege of Krishnapur	Q3818819	
+J. L. Carr	A Month in the Country	Q4003924	
+J. M. Coetzee	Summertime	Q3983319	
+J. M. Coetzee	Waiting for the Barbarians	Q1565837	
+J.R.R. Tolkien	The Hobbit	Q74287	
+J.R.R. Tolkien	The Lord of the Rings	Q15228	
+JL Carr	A Month in the Country	Q4003924	
+JM Coetzee	Disgrace	Q958560	
+Jabbour Douaihy	June Rain	Q22929229	
+Jack Kerouac	On the Road	Q743180	
+Jade Sharma	Problems	Q139929303	
+James Baldwin	Another Country	Q4770221	
+James Baldwin	Giovanni's Room	Q5563645	
+James Baldwin	Go Tell It on the Mountain	Q1444052	
+James Baldwin	If Beale Street Could Talk	Q15052484	
+James Ellroy	American Tabloid	Q959045	
+James Hogg	The Private Memoirs and Confessions of a Justified Sinner	Q2992437	
+James Joyce	A Portrait of the Artist as a Young Man	Q465360	
+James Joyce	Ulysses	Q6511	
+James Kelman	How Late It Was, How Late	Q2076441	
+James Kelman	The Busconductor Hines	Q16849669	
+James Lloyd Carr	A Month in the Country	Q4003924	
+James Salter	All That Is	Q139934367	
+James Salter	Light Years	Q107739880	
+James Salter	Sport and a Pastime	Q3012670	
+Jane Austen	Emma	Q223880	
+Jane Austen	Mansfield Park	Q469690	
+Jane Austen	Persuasion	Q333179	
+Jane Austen	Pride and Prejudice	Q170583	
+Jane Austen	Sense and Sensibility	Q274744	
+Jane Bowles	Two Serious Ladies	Q7859213	
+Jane Gardam	Old Filth Trilogy	Q139926399	
+Janice Galloway	The Trick Is to Keep Breathing	Q7770203	
+Javier Cercas	Soldiers of Salamis	Q1971450	
+Javier Marías	Heart so White	Q1917901	
+Jean Giono	The Man Who Planted Trees	Q1031656	
+Jean Rhys	Good Morning, Midnight	Q5582761	
+Jean Rhys	Voyage in the Dark	Q7942408	
+Jean Rhys	Wide Sargasso Sea	Q2268151	
+Jeffrey Eugenides	Middlesex	Q1609780	
+Jen Beagin	Big Swiss	Q117312619	
+Jennifer Egan	A Visit From the Goon Squad	Q213300	
+Jenny Erpenbeck	Visitation	Q126871409	
+Jerome K. Jerome	Three Men in a Boat	Q955910	
+Johann Wolfgang von Goethe	Elective Affinities	Q951198	
+Johann Wolfgang von Goethe	Sorrows of Young Werther	Q151883	
+John Berger	Pig Earth	Q7193215	
+John Buchan	The 39 Steps	Q2609365	
+John Bunyan	The Pilgrim's Progress	Q268211	
+John Dos Passos	U.s.a.	Q971694	
+John Fowles	The Collector	Q1196602	
+John Irving	A Prayer for Owen Meany	Q13911	
+John Irving	The Cider House Rules	Q1538984	
+John McGahern	Amongst Women	Q473979	
+John Steinbeck	Cannery Row	Q1216542	
+John Steinbeck	East of Eden	Q849701	
+John Steinbeck	The Grapes of Wrath	Q215983	
+John Updike	A Rabbit Omnibus	Q139973727	
+John Updike	Couples	Q771750	
+John Updike	Rabbit Is Rich	Q549152	
+John Updike	Rabbit at Rest	Q1649823	
+John Updike	Rabbit, Run	Q178791	
+John le Carré	Smiley's People	Q1231505	
+John le Carré	The Spy Who Came in From the Cold	Q468071	
+Jon Fosse	Septology	Q132158707	
+Jonathan Franzen	The Corrections	Q335645	
+Jonathan Swift	Gulliver's Travels	Q181488	
+Josefina Vicens	The Empty Book	Q20012821	
+Joseph Conrad	Heart of Darkness	Q129778	
+Joseph Conrad	Nostromo	Q430248	
+Joseph Conrad	The Secret Agent	Q1247666	
+Joseph Heller	Catch-22	Q278208	
+Joseph Heller	Something Happened	Q839220	
+Joseph Roth	The Radetzky March	Q610428	
+Joseph Roth	The Tale of the 1002nd Night	Q1212964	
+José Saramago	All the Names	Q2409292	
+José Saramago	Blindness	Q826428	
+Juan Rulfo	Pedro Páramo	Q1427966	
+Julia Alvarez	In the Time of the Butterflies	Q8775715	
+Julian Barnes	Flaubert's Parrot	Q1063693	
+Julian Barnes	The Noise of Time	Q26158014	
+Julio Cortázar	Hopscotch	Q1755351	
+Jun'ichirō Tanizaki	The Makioka Sisters	Q2354342	
+Kate Atkinson	Life After Life	Q16386674	
+Kaveh Akbar	Martyr!	Q124465799	
+Kawakami Hiromi	Record of a Night Too Brief	Q109359239	
+Kazuo Ishiguro	Klara and the Sun	Q105704813	
+Kazuo Ishiguro	Never Let Me Go	Q951587	
+Kazuo Ishiguro	The Remains of the Day	Q829934	
+Kenneth Patchen	The Journal of Albion Moonlight	Q133552177	
+Keri Hulme	The Bone People	Q1247962	
+Khaled Hosseini	A Thousand Splendid Suns	Q860633	
+Kingsley Amis	Lucky Jim	Q1836777	
+Kiran Desai	The Loneliness of Sonia and Sunny	Q133812579	
+Knut Hamsun	Hunger	Q1062365	
+Kurt Vonnegut	Cat's Cradle	Q41359	
+Kurt Vonnegut	Slaughterhouse-Five	Q265954	
+L. P. Hartley	The Go-Between	Q4288844	
+Laila Lalami	The Moor's Account	Q20925587	
+Larry McMurtry	Lonesome Dove	Q973883	
+Lauren Groff	Matrix	Q109609245	
+Laurence Sterne	A Sentimental Journey	Q768792	
+Laurence Sterne	The Life and Opinions of Tristram Shandy	Q1164083	
+Laurence Sterne	The Life and Opinions of Tristram Shandy, Gentleman	Q1164083	
+Lawrence Durrell	The Alexandria Quartet	Q2743377	
+Leila Aboulela	The Translator	Q7769974	
+Leila Mottley	Nightcrawling	Q114761913	
+Leo Tolstoy	Anna Karenina	Q147787	
+Leo Tolstoy	Ivan Ilyitch	Q396602	
+Leo Tolstoy	War and Peace	Q161531	
+Leslie Silko	Ceremony	Q5064165	
+Lewis Carroll	Alice in Wonderland	Q92640	
+Lewis Carroll	Alice's Adventures in Wonderland	Q92640	
+Lorrie Moore	Who Will Run the Frog Hospital?	Q7997438	
+Louise Erdrich	Love Medicine	Q6077660	
+Lucas Rijneveld	The Discomfort of Evening	Q107140953	
+Lucy Ellmann	Ducks, Newburyport	Q67130878	
+Lucy Maud Montgomery	Anne of Green Gables	Q565911	
+Madame de La Fayette	La Princesse De Cleves	Q1157010	
+Madeline Miller	The Song of Achilles	Q21189971	
+Maggie O'Farrell	Hamnet	Q96380258	
+Malcolm Lowry	Under the Volcano	Q1570020	
+Malorie Blackman	Noughts & Crosses	Q3055173	
+Marcel Proust	In Search of Lost Time	Q464928	
+Margaret Atwood	The Handmaid's Tale	Q1541914	
+Margaret Drabble	The Millstone	Q7751500	
+Margaret Oliphant	Miss Marjoribanks	Q6877023	
+Marghanita Laski	Little Boy Lost	Q6649255	
+Marguerite Duras	Moderato Cantabile	Q2276817	
+Marguerite Duras	The Lover	Q1195257	
+Marguerite Yourcenar	Memoirs of Hadrian	Q1233795	
+Marian Engel	Bear	Q19876383	
+Mariana Enriquez	Things We Lost in the Fire	Q111596718	
+Marilynne Robinson	Gilead	Q5561577	
+Marilynne Robinson	Home	Q13636457	
+Marilynne Robinson	Housekeeping	Q5915883	
+Mario Vargas Llosa	Aunt Julia and the Script-Writer	Q2296752	
+Mario Vargas Llosa	Conversation in the Cathedral	Q1519372	
+Mark Twain	Huckleberry Finn	Q215410	
+Mark Z. Danielewski	House of Leaves	Q521688	
+Marlon James	The Book of Night Women	Q16953892	
+Martin Amis	Money	Q3860773	
+Martin Amis	The Information	Q7742008	
+Mary Shelley	Frankenstein	Q150827	
+Mathias Enard	Zone	Q3575734	
+Matthew Gregory Lewis	The Monk	Q2659564	
+Max Porter	Grief Is the Thing With Feathers	Q86662312	
+Mercè Rodoreda	In Diamond Square	Q1107782	
+Mercè Rodoreda	The Time of the Doves	Q1107782	
+Mervyn Peake	Gormenghast	Q5586648	
+Mervyn Peake	The Gormenghast Novels	Q728841	
+Mervyn Peake	Titus Groan	Q7810310	
+Mia Couto	A River Called Time	Q139942555	
+Michael Chabon	The Amazing Adventures of Kavalier and Clay	Q2705230	
+Michael Frayn	Towards the End of the Morning	Q7829583	
+Michael Ondaatje	Coming Through Slaughter	Q2985217	
+Michael Ondaatje	In the Skin of a Lion	Q6012914	
+Michael Ondaatje	The English Patient	Q1292533	
+Miguel de Cervantes	Don Quixote	Q480	
+Mikhail Bulgakov	The Master and Margarita	Q188538	
+Milan Kundera	The Unbearable Lightness of Being	Q917055	
+Min Jin Lee	Pachinko	Q55641363	
+Miriam Toews	Women Talking	Q111207760	
+Miroslav Krleža	On the Edge of Reason	Q16512299	
+Mohsin Hamid	Exit West	Q29344661	
+Murasaki Shikibu	The Tale of Genji	Q8269	
+Muriel Spark	A Far Cry From Kensington	Q4656667	
+Muriel Spark	Loitering With Intent	Q3629098	
+Muriel Spark	Memento Mori	Q6815201	
+Muriel Spark	The Girls of Slender Means	Q716712	
+Muriel Spark	The Prime of Miss Jean Brodie	Q2074335	
+Máirtín Ó Cadhain	The Dirty Dust	Q13157174	
+Nadine Gordimer	A Guest of Honour	Q23307106	
+Nancy Mitford	The Pursuit of Love	Q3576797	
+Natalia Ginzburg	All Our Yesterdays	Q1777264	
+Natalia Ginzburg	The Road to the City	Q26722846	
+Nathaniel Hawthorne	The Scarlet Letter	Q907568	
+Nella Larsen	Passing	Q15052495	
+Nella Larsen	Quicksand	Q24902061	
+Nellie Campobello	Cartucho	Q5047445	
+Nick Hornby	A Long Way Down	Q300467	
+Nicola Barker	Darkmans	Q65065970	
+Nino Haratischvili	Eighth Life	Q28083618	
+Norton Juster	The Phantom Tollbooth	Q149993	
+Nuruddin Farah	Maps	Q42185916	
+Ocean Vuong	On Earth We're Briefly Gorgeous	Q85790651	
+Octavia E Butler	Kindred	Q6410642	
+Octavia E. Butler	Parable of the Sower	Q3823447	
+Olga Ravn	The Employees	Q107970380	
+Olga Tokarczuk	Drive Your Plow Over the Bones of the Dead	Q11827997	
+Oliver Goldsmith	The Vicar of Wakefield	Q1196205	
+Osamu Dazai	No Longer Human	Q1147583	
+Oscar Casares	Where We Come From	Q139934539	
+Oscar Wilde	The Picture of Dorian Gray	Q82464	
+P. G. Wodehouse	Right Ho, Jeeves	Q7333527	
+P. G. Wodehouse	The Code of the Woosters	Q5961389	
+Pat Barker	Union Street	Q7886134	
+Pat O'Shea	The Hounds of the Morrigan	Q1214803	
+Patricia Highsmith	The Talented Mr Ripley	Q472026	
+Patrick Chamoiseau	Slave Old Man	Q106610667	
+Patrick Hamilton	The Slaves of Solitude	Q7764765	
+Patrick O'Brian	Aubrey-Maturin Series	Q10376289	
+Paul Auster	Leviathan	Q1821899	
+Paul Beatty	The Sellout	Q22075195	
+Paul Bowles	The Spider's House	Q113512137	
+Paul Golding	Senseless	Q139961089	
+Paul Murray	Bee Sting	Q123418448	
+Paulo Coelho	The Alchemist	Q179021	
+Penelope Fitzgerald	The Beginning of Spring	Q19892133	
+Penelope Fitzgerald	The Blue Flower	Q20085225	
+Percival L. Everett	James	Q126679110	
+Percival L. Everett	Telephone	Q137088894	
+Percival L. Everett	The Trees	Q113499454	
+Peter Carey	Oscar & Lucinda	Q1060522	
+Peter Carey	True History of the Kelly Gang	Q3821351	
+Peter Høeg	Miss Smilla's Feeling for Snow	Q767189	
+Philip Pullman	Northern Lights	Q169976	
+Philip Roth	American Pastoral	Q470057	
+Philip Roth	Operation Shylock	Q2892749	
+Philip Roth	Portnoy's Complaint	Q2707531	
+Primo Levi	If This Is a Man / the Truce	Q836036	
+Pu Songling	Strange Tales From a Chinese Studio	Q83755	
+R. C. Sherriff	The Fortnight in September,	Q135185365	
+R. J. Palacio	Wonder	Q13476115	
+R. K. Narayan	Swami and Friends	Q7653285	
+Rachel Carson	Silent Spring	Q591623	
+Rachel Cusk	Outline	Q50377310	
+Rachel Cusk	Transit	Q139961733	
+Ralph Ellison	Invisible Man	Q1784288	
+Ray Bradbury	Farenheit 451	Q202009	
+Raymond Chandler	The Big Sleep	Q1649862	
+Richard Adams	Watership Down	Q936801	
+Richard Brautigan	Trout Fishing in America	Q7846597	
+Richard Ford	The Sportswriter	Q7766048	
+Richard Hughes	A High Wind in Jamaica	Q3401207	
+Richard McGuire	Here	Q5736930	
+Richard Powers	Overstory	Q56277009	
+Richard Wright	Black Boy	Q880125	
+Richard Yates	Revolutionary Road	Q1393977	
+Richard Yates	The Easter Parade	Q7731455	
+Roald Dahl	Danny the Champion of the World	Q1164830	
+Robert Louis Stevenson	Dr. Jekyll and Mr. Hyde	Q217352	
+Robert Louis Stevenson	The Strange Case of Dr. Jekyll and Mr. Hyde	Q217352	
+Robert Musil	The Man Without Qualities	Q1195668	
+Robert Stone	A Flag for Sunrise	Q42184751	
+Roberto Bolaño	2666	Q219437	
+Roberto Bolaño	By Night in Chile	Q432236	
+Robertson Davies	The Deptford Trilogy	Q7729761	
+Rohinton Mistry	A Fine Balance	Q48829	
+Rokeya Sakhawat Hossain	Sultana's Dream	Q7636766	
+Romain Gary	Promise at Dawn	Q822690	
+Rose Tremain	Restoration	Q3793934	
+Rosemary Tonks	The Bloater	Q139961867	
+Rudyard Kipling	Kim	Q589868	
+Russell Hoban	Riddley Walker	Q7332458	
+Ruth Ozeki	Tale for the Time Being	Q16149397	
+S. E. Hinton	The Outsiders	Q1215312	
+Sadegh Hedayat	The Blind Owl	Q1211660	
+Sally Rooney	Intermezzo	Q131036665	
+Sally Rooney	Normal People	Q55360383	
+Salman Rushdie	Haroun and the Sea of Stories	Q897003	
+Salman Rushdie	Midnight's Children	Q625764	
+Salman Rushdie	The Satanic Verses	Q191288	
+Samuel Beckett	Molloy	Q1971806	
+Samuel Beckett	Murphy	Q1431476	
+Samuel Beckett	Samuel Beckett Trilogy Molloy; Malone Dies; the Unnamable	Q139961261	
+Samuel Richardson	Clarissa Harlowe	Q980534	
+Samuel Richardson	Clarissa, Or, the History of a Young Lady	Q980534	
+Samuel Selvon	The Lonely Londoners	Q7748128	
+Sarah Bernstein	The Coming Bad Days	Q139934719	
+Sarah Moss	Ghost Wall	Q132492352	
+Sarah Orne Jewett	The Country of the Pointed Firs	Q7727811	
+Sarah Waters	Fingersmith	Q2756027	
+Saul Bellow	Herzog	Q1424503	
+Saul Bellow	Humboldt's Gift	Q3793856	
+Saul Bellow	Seize the Day	Q2907590	
+Saul Bellow	The Adventures of Augie March	Q1771746	
+Scheherazade	One Thousand and One Nights	Q8258	
+Selby Wynn Schwartz	After Sappho	Q114761917	
+Shirley Hazzard	The Transit of Venus	Q36067251	
+Shirley Jackson	The Haunting of Hill House	Q3819311	
+Shirley Jackson	We Have Always Lived in the Castle	Q3603302	
+Simin Daneshvar	Savushun	Q7428461	
+Stendhal	The Red and the Black	Q192649	
+Stephen Crane	Red Badge of Courage	Q1219239	
+Stephen King	The Stand	Q149552	
+Susan Cooper	Grey King	Q7738276	
+Susan Cooper	The Dark Is Rising	Q1618062	
+Susanna Clarke	Jonathan Strange & Mr. Norrell	Q1474920	
+Susanna Clarke	Piranesi	Q99434216	
+Sybille Bedford	A Compass Error	Q139961687	
+Sylvia Plath	The Bell Jar	Q1213085	
+Sylvia Townsend Warner	Lolly Willowes, Or, the Loving Huntsman	Q6668990	
+Tarjei Vesaas	The Ice Palace	Q7741279	
+Tayeb Salih	Season of Migration to the North	Q921128	
+Thomas Bernhard	The Loser	Q358958	
+Thomas Bernhard	Woodcutters	Q876505	
+Thomas Hardy	Jude the Obscure	Q1248773	
+Thomas Hardy	Tess of the D'urbervilles	Q649409	
+Thomas Hardy	The Return of the Native	Q141568	
+Thomas Mann	Buddenbrooks	Q326909	
+Thomas Mann	Death in Venice	Q828296	
+Thomas Mann	Joseph and His Brothers	Q282181	
+Thomas Mann	The Magic Mountain	Q212898	
+Thomas Pynchon	Gravity's Rainbow	Q1212160	
+Tim Winton	Breath	Q4959816	
+Tim Winton	Cloudstreet	Q5135780	
+Tom Wolfe	The Bonfire of the Vanities	Q1401130	
+Toni Morrison	Beloved	Q971767	
+Toni Morrison	Song of Solomon	Q3480330	
+Toni Morrison	Sula	Q3503405	
+Toni Morrison	Tar Baby	Q7684981	
+Toni Morrison	The Bluest Eye	Q1069956	
+Torrey Peters	Detransition, Baby	Q107988234	
+Torrey Peters	Stag Dance	Q133522223	
+Tove Jansson	Moominland Midwinter	Q2914611	
+Tove Jansson	The Summer Book	Q7767247	
+Truman Capote	In Cold Blood	Q1142887	
+Tsitsi Dangarembga	Nervous Conditions	Q6996918	
+U. R. Anantha Murthy	Samskara	Q26186664	
+Umberto Eco	The Name of the Rose	Q172850	
+Ursula K Le Guin	The Left Hand of Darkness	Q2008211	
+Ursula K. Le Guin	A Wizard of Earthsea	Q1771810	
+Ursula K. Le Guin	Earthsea	Q116546	
+Ursula K. Le Guin	The Dispossessed	Q467720	
+V. S. Naipaul	A Bend in the River	Q482567	
+V. S. Naipaul	The Enigma of Arrival	Q7732266	
+VS Naipaul	A House for Mr Biswas	Q4657437	
+Vasily Grossman	Life and Fate	Q979609	
+Victor Hugo	Les Misérables	Q180736	
+Victor Hugo	Notre Dame De Paris	Q191380	
+Victor Hugo	The Hunchback of Notre-Dame	Q191380	
+Vikram Seth	A Suitable Boy	Q2918491	
+Vikram Seth	The Golden Gate	Q7737043	
+Virginia Woolf	A Room of One's Own	Q1204366	
+Virginia Woolf	Jacob's Room	Q1677745	
+Virginia Woolf	Mrs Dalloway	Q752584	
+Virginia Woolf	Orlando	Q1629456	
+Virginia Woolf	The Waves	Q1217475	
+Virginia Woolf	To the Lighthouse	Q478016	
+Virginie Despentes	Vernon Subutex 1	Q21009532	
+Vladimir Nabokov	Invitation to a Beheading	Q2332901	
+Vladimir Nabokov	Lolita	Q127149	
+Vladimir Nabokov	Pale Fire	Q1229792	
+Vladimir Nabokov	Pnin	Q289815	
+Vladimir Nabokov	The Real Life of Sebastian Knight	Q2351667	
+WG Sebald	Austerlitz	Q473389	
+WG Sebald	The Rings of Saturn	Q7760819	
+Walker Percy	The Moviegoer	Q7752560	
+Walter Scott	The Heart of Midlothian	Q2091094	
+Wang Xiaobo	Golden Age	Q10567210	
+Willa Cather	My Ántonia	Q2776448	
+Willa Cather	Shadows on the Rock	Q7460836	
+William Faulkner	As I Lay Dying	Q1544119	
+William Faulkner	Light in August	Q1823273	
+William Faulkner	The Sound and the Fury	Q135515	
+William Gaddis	The Recognitions	Q1212808	
+William H. Gass	The Tunnel	Q7770719	
+William Hope Hodgson	House on the Borderland	Q740473	
+William Makepeace Thackeray	Vanity Fair	Q612836	
+William Maxwell	So Long, See You Tomorrow	Q7549352	
+William Somerset Maugham	The Razor's Edge	Q759329	
+William Trevor	Felicia's Journey	Q5441700	
+William Trevor	Reading Turgenev	Q114761812	
+William Trevor	The Story of Lucy Gault	Q4791	
+Wole Soyinka	Seasons of Anomy	Q23307171	
+Yael van der Wouden	The Safekeep	Q130749180	
+Yoko Ogawa	The Memory Police	Q85721227	
+Yoko Tawada	Scattered All Over the Earth	Q139942587	
+Yukio Mishima	Confessions of a Mask	Q2444853	
+Yukio Mishima	Thirst for Love	Q2080456	
+Yuko Tsushima	Territory of Light	Q131299092	
+Zadie Smith	Nw	Q17016518	
+Zadie Smith	White Teeth	Q866980	
+Zora Neale Hurston	Their Eyes Were Watching God	Q1476619	
+Ágota Kristóf	The Third Lie	Q3227853	
+Álvaro Enrigue	Sudden Death	Q139947982	
+Émile Zola	Germinal	Q137869	
+Émile Zola	Nana	Q1138346	
