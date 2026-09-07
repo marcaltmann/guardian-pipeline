@@ -1,13 +1,13 @@
-"""Stage 11 — beautify an archived app.js snapshot for line-by-line diffing::
+"""Stage 15 — beautify an archived app.js snapshot for line-by-line diffing::
 
     data/raw/app_js/{version}.js  ->  data/derived/app_js/{version}-beautified.js
 
 The beautified copies are committed; nothing downstream reads them. Defaults to the
 selected release.
 
-Run from the repo root::
+Run from the ``pipeline/`` directory::
 
-    uv run pipeline/15_beautify_appjs.py [--version VERSION]
+    uv run 15_beautify_appjs.py [--version VERSION]
 """
 
 import argparse

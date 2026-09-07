@@ -7,9 +7,9 @@ The arrays are JavaScript literals, not JSON, so the decode shells out to ``node
 see extract.py. Decoded strings are NFC-normalized and trimmed, because the dirty
 source text would otherwise break the exact-match joins in later stages.
 
-Run from the repo root::
+Run from the ``pipeline/`` directory::
 
-    uv run pipeline/20_extract_arrays.py
+    uv run 20_extract_arrays.py
 """
 
 from pathlib import Path

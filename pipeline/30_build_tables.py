@@ -19,7 +19,7 @@ hand-edited.
 
 Offline, no flags. Run from the ``pipeline/`` directory::
 
-    uv run 30_build_curation_tables.py
+    uv run 30_build_tables.py
 """
 
 from jsonio import read_json

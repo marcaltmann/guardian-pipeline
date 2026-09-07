@@ -9,9 +9,9 @@ The version is a Unix timestamp parsed from the URL path (``.../v/{version}/app.
 ``publication_date`` is that timestamp decoded. Selecting a release means editing the
 one-line config file ``data/manual/selected_url`` — there is no hardcoded URL.
 
-Run from the repo root::
+Run from the ``pipeline/`` directory::
 
-    uv run pipeline/10_fetch_appjs.py [--force]
+    uv run 10_fetch_appjs.py [--force]
 """
 
 import argparse
