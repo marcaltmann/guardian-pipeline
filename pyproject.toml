@@ -17,6 +17,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "lxml>=6.1.3",
     "pytest>=9.1.1",
 ]
 

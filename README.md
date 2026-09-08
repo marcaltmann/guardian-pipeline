@@ -33,7 +33,11 @@ Requires `uv`, `node`, and `make`. From the repository root:
 make            # fetch, extract, tables, reconcile, graphml
 make tables     # one stage; run any subset in order, e.g. make tables reconcile graphml
 make beautify   # the optional stage
+make validate   # check output/guardian.graphml against the GraphML schema
 ```
+
+`make validate` uses the GraphML XML Schema vendored in `schema/` and needs `lxml`, which
+`uv` installs with the `dev` dependency group by default.
 
 Stages can also be run directly from inside `pipeline/`, e.g. `uv run 30_build_tables.py`.
 
