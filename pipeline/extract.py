@@ -50,7 +50,7 @@ def find_array_literal(src: str, name: str) -> str:
     while i < len(src):
         ch = src[i]
         if in_string is not None:
-            if ch == '\\':          # escaped char inside a string
+            if ch == '\\':  # escaped char inside a string
                 i += 2
                 continue
             if ch == in_string:
@@ -62,7 +62,7 @@ def find_array_literal(src: str, name: str) -> str:
         elif ch == ']':
             depth -= 1
             if depth == 0:
-                return src[open_bracket:i + 1]
+                return src[open_bracket : i + 1]
         i += 1
 
     raise ValueError(f'Unterminated array literal for {name!r}')
@@ -79,7 +79,9 @@ def _eval_with_node(literal: str) -> Any:
             check=True,
         )
     except FileNotFoundError as e:
-        raise RuntimeError('node not found on PATH — required to evaluate the literal') from e
+        raise RuntimeError(
+            'node not found on PATH — required to evaluate the literal'
+        ) from e
     except subprocess.CalledProcessError as e:
         raise RuntimeError(f'node failed to evaluate the literal:\n{e.stderr}') from e
     return json.loads(proc.stdout)
