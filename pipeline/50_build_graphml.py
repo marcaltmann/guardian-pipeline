@@ -15,8 +15,8 @@ once they share a Wikidata id they are one node. The node's ``label`` and
 same work twice under different spellings gets one edge, not two.
 
 Every edge weighs ``1.0`` — a vote is a vote; the ballot position is not on the
-edge. Works nobody voted for would appear as isolated nodes, since ``works.tsv``
-covers the published top-100 as well as every ballot.
+edge. No work node is isolated: ``works.tsv`` is built from the ballots, so every
+work has at least one vote.
 
 Offline, no flags. Run from the ``pipeline/`` directory::
 
@@ -165,15 +165,15 @@ def build_graph(derived_dir, output_dir):
 
 
 def main():
-    s = build_graph(DERIVED_DIR, OUTPUT_DIR)
+    summary = build_graph(DERIVED_DIR, OUTPUT_DIR)
     print(
-        f'{s["work_nodes"]} works (from {s["work_rows"]} spellings) + '
-        f'{s["voters"]} voters, {s["edges"]} edges (from {s["votes"]} votes) '
+        f'{summary["work_nodes"]} works (from {summary["work_rows"]} spellings) + '
+        f'{summary["voters"]} voters, {summary["edges"]} edges (from {summary["votes"]} votes) '
         f'→ {OUTPUT_DIR}/{GRAPHML_NAME}'
     )
-    if s['merged']:
+    if summary['merged']:
         print('merged into one node (label first, then what it absorbed):')
-        for rows in s['merged'].values():
+        for rows in summary['merged'].values():
             spellings = [f'{r["work"]} ({r["author"]})' for r in rows]
             print(
                 f'  {rows[0]["wikidataId"]:<11}{spellings[0]}  ← {", ".join(spellings[1:])}'

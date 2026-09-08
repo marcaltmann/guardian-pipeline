@@ -12,7 +12,7 @@ the previous one wrote and never edits anything by hand.
 |---|---|---|
 | 10 | `10_fetch_appjs.py` | Fetches the Guardian `app.js` bundle named in `data/manual/selected_url` into `data/raw/app_js/`. Skips if already archived. |
 | 15 | `15_beautify_appjs.py` | Beautifies the bundle for diffing. Optional; nothing reads its output. |
-| 20 | `20_extract_arrays.py` | Decodes the top-100 list and every ballot out of the bundle into `data/raw/pb.json` and `gb.json`. Needs `node`. |
+| 20 | `20_extract_votes.py` | Decodes every ballot out of the bundle into `data/raw/gb.json`. Needs `node`. |
 | 30 | `30_build_tables.py` | Builds `works.tsv`, `voters.tsv` and `votes.tsv` in `data/derived/`. |
 | 35 | `35_reconcile_wikidata_ids.py` | Joins the hand-curated Wikidata ids from `data/manual/` onto works and voters, writes `*_reconciled.tsv`, and lists anything still missing an id in `output/missing_*.tsv`. |
 | 40 | *(planned)* | Wikidata enrichment. |

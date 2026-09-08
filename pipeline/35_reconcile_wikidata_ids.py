@@ -44,11 +44,18 @@ def join_works(works, manual_rows):
         key = (work['author'], work['work'])
         m = by_key.pop(key, {})
         wikidata_id = m.get('wikidataId') or ''
-        reconciled.append({'author': work['author'], 'work': work['work'],
-                           'wikidataId': wikidata_id})
+        reconciled.append(
+            {'author': work['author'], 'work': work['work'], 'wikidataId': wikidata_id}
+        )
         if not wikidata_id:
-            missing.append({'author': work['author'], 'work': work['work'],
-                            'wikidataId': '', 'notes': m.get('notes') or ''})
+            missing.append(
+                {
+                    'author': work['author'],
+                    'work': work['work'],
+                    'wikidataId': '',
+                    'notes': m.get('notes') or '',
+                }
+            )
     return reconciled, missing, sorted(by_key)
 
 
@@ -62,11 +69,18 @@ def join_voters(voters, manual_rows):
     for voter in voters:
         m = by_slug.pop(voter['slug'], {})
         wikidata_id = m.get('wikidataId') or ''
-        reconciled.append({'slug': voter['slug'], 'name': voter['name'],
-                           'wikidataId': wikidata_id})
+        reconciled.append(
+            {'slug': voter['slug'], 'name': voter['name'], 'wikidataId': wikidata_id}
+        )
         if not wikidata_id:
-            missing.append({'slug': voter['slug'], 'name': voter['name'],
-                            'wikidataId': '', 'notes': m.get('notes') or ''})
+            missing.append(
+                {
+                    'slug': voter['slug'],
+                    'name': voter['name'],
+                    'wikidataId': '',
+                    'notes': m.get('notes') or '',
+                }
+            )
     return reconciled, missing, sorted(by_slug)
 
 
@@ -93,30 +107,43 @@ def reconcile(manual_dir, derived_dir, output_dir):
         voters, _read_manual(manual_dir / 'voters_wikidata.tsv')
     )
 
-    write_tsv(derived_dir / 'works_reconciled.tsv', WORKS_RECONCILED_FIELDS,
-              works_reconciled)
-    write_tsv(derived_dir / 'voters_reconciled.tsv', VOTERS_RECONCILED_FIELDS,
-              voters_reconciled)
-    write_tsv(output_dir / 'missing_works_wikidata.tsv', WORKS_MANUAL_FIELDS,
-              works_missing)
-    write_tsv(output_dir / 'missing_voters_wikidata.tsv', VOTERS_MANUAL_FIELDS,
-              voters_missing)
+    write_tsv(
+        derived_dir / 'works_reconciled.tsv', WORKS_RECONCILED_FIELDS, works_reconciled
+    )
+    write_tsv(
+        derived_dir / 'voters_reconciled.tsv',
+        VOTERS_RECONCILED_FIELDS,
+        voters_reconciled,
+    )
+    write_tsv(
+        output_dir / 'missing_works_wikidata.tsv', WORKS_MANUAL_FIELDS, works_missing
+    )
+    write_tsv(
+        output_dir / 'missing_voters_wikidata.tsv', VOTERS_MANUAL_FIELDS, voters_missing
+    )
 
-    return {'works': len(works), 'voters': len(voters),
-            'works_missing': len(works_missing), 'voters_missing': len(voters_missing),
-            'works_unmatched': works_unmatched, 'voters_unmatched': voters_unmatched}
+    return {
+        'works': len(works),
+        'voters': len(voters),
+        'works_missing': len(works_missing),
+        'voters_missing': len(voters_missing),
+        'works_unmatched': works_unmatched,
+        'voters_unmatched': voters_unmatched,
+    }
 
 
 def main():
-    s = reconcile(MANUAL_DIR, DERIVED_DIR, OUTPUT_DIR)
+    summary = reconcile(MANUAL_DIR, DERIVED_DIR, OUTPUT_DIR)
     print(
-        f"works: {s['works']} ({s['works_missing']} missing wikidataId) "
+        f'works: {summary["works"]} ({summary["works_missing"]} missing wikidataId) '
         f'→ {DERIVED_DIR}/works_reconciled.tsv\n'
-        f"voters: {s['voters']} ({s['voters_missing']} missing wikidataId) "
+        f'voters: {summary["voters"]} ({summary["voters_missing"]} missing wikidataId) '
         f'→ {DERIVED_DIR}/voters_reconciled.tsv'
     )
-    for label, keys in (('works', s['works_unmatched']),
-                        ('voters', s['voters_unmatched'])):
+    for label, keys in (
+        ('works', summary['works_unmatched']),
+        ('voters', summary['voters_unmatched']),
+    ):
         for key in keys:
             print(f'warning: {label}_wikidata.tsv row matches nothing: {key!r}')
 
