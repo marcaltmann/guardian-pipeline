@@ -167,12 +167,16 @@ def build_graph(derived_dir, output_dir):
 def main():
     summary = build_graph(DERIVED_DIR, OUTPUT_DIR)
     print(
-        f'{summary["work_nodes"]} works (from {summary["work_rows"]} spellings) + '
+        f'{summary["work_nodes"]} works + '
         f'{summary["voters"]} voters, {summary["edges"]} edges (from {summary["votes"]} votes) '
         f'→ {OUTPUT_DIR}/{GRAPHML_NAME}'
     )
     if summary['merged']:
-        print('merged into one node (label first, then what it absorbed):')
+        absorbed = summary['work_rows'] - summary['work_nodes']
+        print(
+            f'merged {summary["work_rows"]} spellings into {summary["work_nodes"]} works '
+            f'({len(summary["merged"])} groups, {absorbed} variants absorbed):'
+        )
         for rows in summary['merged'].values():
             spellings = [f'{r["work"]} ({r["author"]})' for r in rows]
             print(
